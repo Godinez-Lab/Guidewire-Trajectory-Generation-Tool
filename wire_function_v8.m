@@ -1,10 +1,10 @@
-function [output_wire_lengths, output_modified_wire_lengths, output_coordinates] = wire_function_v8(starting_points, ranges, points_changing, s, varargin)
+function [output_wire_lengths, output_modified_wire_lengths, output_coordinates] = wire_function(starting_points, ranges, points_changing, s, varargin)
 % Authors:
 % Fatima Ben Haj, Davis Senior High School
 % Felipe Godinez, PhD, University of California Davis
 % Date Created: September 2022
 %{
-% Code Last Modified: Jan 24, 2024
+% Code Last Modified: Jan 24, 2024, version 8
 
 %%%%%<<<<<<<<<<<<<<<<<<<<<<REQUIRED INPUTS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 %starting_points: the original set of points, which should correspond with
